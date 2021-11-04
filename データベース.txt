@@ -1,0 +1,70 @@
+mysql -u root -p
+mysql
+
+set names sjis;
+
+
+CREATE DATABASE note;
+USE note;
+//確認用
+show databases;
+show tables;
+
+CREATE TABLE user(
+no INT PRIMARY KEY AUTO_INCREMENT,
+mail VARCHAR(100)  NOT NULL,
+pw VARCHAR(16) NOT NULL,
+name VARCHAR(5) NOT NULL,
+pf_s VARCHAR(20),
+pf_b VARCHAR(20) 
+);
+
+
+CREATE TABLE touko(
+no INT PRIMARY KEY AUTO_INCREMENT,
+title VARCHAR(100) NOT NULL,
+text VARCHAR(1000) NOT NULL,
+bkm bit(1),
+date DATETIME,
+id INT,
+name VARCHAR(5) NOT NULL
+);
+//bkm bit(1)→0(false)or1(true)のみ入力される。boolean型だと2以上の値も認知されるので。
+
+
+CREATE TABLE com(
+no INT PRIMARY KEY AUTO_INCREMENT,
+id INT,//コメントした人のuserのnoカラム
+name VARCHAR(5) NOT NULL,
+text VARCHAR (1000) NOT NULL,
+toukono int,//toukoテーブルのnoカラム（投稿とコメントを結びつけるため
+date DATE
+);
+
+
+//ブックマーク機能用データベース??
+create table fav(
+no int primary key AUTO_INCREMENT,
+id varchar(100) NOT NULL,//ブックマークした人のuserテーブルのnoカラム
+title VARCHAR(100) NOT NULL,
+text VARCHAR(1000) NOT NULL,
+textno int NOT NULL//投稿されたテキストのno(toukoテーブルの投稿no）
+);
+
+
+//確認用
+show tables;
+
+//テーブルの中身確認用
+select * from user;
+select * from touko;
+select * from com;
+select * from fav;
+
+//テーブルだけ削除用
+drop table user;
+drop table touko;
+drop table com;
+drop table fav;
+
+DROP DATABASE note; //データベース消すとき入力してください
