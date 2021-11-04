@@ -1,0 +1,55 @@
+body {
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+img {
+	margin-left: 340px;
+}
+h1 {
+	color: #6ba13f;
+}
+
+h3 {
+	color: #6ba13f;
+}
+
+.sub{
+	color: #FFFFFF;
+	background-color: #6ba13f;
+	border-style: solid;
+	border-width: 0px;
+	display: inline-block;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	color: #FFF;
+	border-bottom: solid 4px #6BA13F;
+	border-radius: 3px;
+}
+
+#lo{
+	color: #FFFFFF;
+	background-color: #6ba13f;
+	border-style: solid;
+	border-width: 0px;
+	display: inline-block;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	color: #FFF;
+	border-bottom: solid 4px #6BA13F;
+	border-radius: 3px;
+}
+	
+
+.btn-square-shadow {
+	color: #FFFFFF;
+ 	display: inline-block;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	background: #6BA13F;/*ボタン色*/
+	color: #FFF;
+	border-bottom: solid 4px #6BA13F;
+	border-radius: 3px;
+}	
+

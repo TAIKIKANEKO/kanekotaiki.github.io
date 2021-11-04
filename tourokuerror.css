@@ -1,0 +1,14 @@
+h1 {
+	color: #ffffff;
+	background-color: #6ba13f;
+}
+
+#lo {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: white;/*ボタン色*/
+  color: #6BA13F;
+  border-bottom: solid 4px #6BA13F;
+  border-radius: 3px;
+}

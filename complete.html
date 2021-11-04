@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="btn1.css">
+    <link rel="stylesheet" href="tourokukanryo.css">
+  </head>
+    <body>
+      <a href="trymypage2.php">
+        <img alt="home" src="icon-home.png"width="32"height="32"><div class="balloon2-top" id="homemodori"><p>ここからホーム画面へ行けます</p></div><br>
+      </a><br>
+      <h1>HOME</h1>
+       <form method="post" action="search.php">
+        <input type="search" required name="search" size="48">
+        <div><input type="submit" value="検索" class="btn1"></div><div class="balloon2-top" id="gade1"><p>ここで検索出来ます</p></div><br>
+        <br><br>
+      </form>
+      <form method="post" action="throw.php">
+      <input type="text"placeholder="タイトルを入力" required name="title"><br><br>
+      <textarea name="message" placeholder="好きなテキストを入力" required rows="8" cols="50"></textarea>
+        <input type="hidden" name="ticket" value="<?php print ($ticket);?>"/>
+        <div><input type="submit" value="投稿" class="btn1"></div><br><div class="balloon2-top" id="gade2"><p>ここで投稿出来ます</p></div><br>
+      </form>
+      <br>
+          <a href="logout.php">
+        <div><input id="lo" type="submit" value="ログアウト"></div><div class="balloon2-top" id="gade3"><p>ここでログアウト出来ます</p></div><br><br>
+          </a>
+    </body>
+  </html>

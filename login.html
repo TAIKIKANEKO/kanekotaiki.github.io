@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ログイン</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="back.css">
+		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" href="back.css">
+	</head>
+	<body>
+		<div class="body"></div>
+    <div class="header">
+      <div><span>UniQuENOTE</span></div>
+    </div>
+    <br>
+    <div class="login">
+		<table>
+			<tr>
+				<form method="post" action="login.php">
+				<td>ID</td>
+				<td><input type="text" pattern="^[0-9a-zA-Z_.]+@[0-9a-zA-Z_.]+$" required name="id" size="15"></td>
+			</tr><tr>
+				<td>パスワード</td>
+				<td><input type="password" required name="pw" size="15"></td>
+			</tr><tr>
+				<td></td>
+				<td><input type="submit" value="ログイン"></td>
+				</form>
+			</tr>
+		</table>
+		<a href="sinki.html">
+		<input type="button" value="新規登録">
+	</body>
+</html>
+
+<link rel="stylesheet">

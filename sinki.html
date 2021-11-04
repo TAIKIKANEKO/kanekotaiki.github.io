@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charset= "utf-8">
+		<link rel="stylesheet" href="sinki.css">
+	</head>
+	<body>
+		<h1 id="sinki">新規登録</h1>
+		<form method = "post" action="tourokucheck.php">
+			<table>
+				<tr>
+					<td class="omote">ニックネーム:</td>
+					<td><input type = "text" name="name1" required></td>
+				</tr>
+				<tr>
+					<td class="omote">メールアドレス:</td>
+					<td><input type = "text" name="mail1" required></td>
+				</tr>
+				<tr>
+					<td class="omote">パスワード(8～16字):</td>
+					<td><input type = "password" name="password1" required minlength="8" maxlength="16"></td>
+				</tr>
+			</table>
+			<br>
+			学んでいるもの:<br>
+						<label for="message1"></label>
+						<textarea rows="4" cols= "50" name="message1" placeholder="これから学ぼうとしているもの、今学んでいる資格があれば入力して下さい"></textarea>
+			<br>
+			専門分野:<br>
+						<label for="message2"></label>
+						<textarea rows="4" cols="50" name="message2" placeholder="専門分野・既に持っている資格があれば入力して下さい"></textarea>
+			<br>
+			<input type = "submit" value="登録" class="soushin">
+		</form>
+		<div class="omochi">アカウントをお持ちの方は<a href="login.html" class="btn1">こちら</a></div>
+	</body>
+</html>

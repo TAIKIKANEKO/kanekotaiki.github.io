@@ -1,0 +1,9 @@
+.btn-square-shadow {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #6BA13F;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #6BA13F;
+  border-radius: 3px;
+}

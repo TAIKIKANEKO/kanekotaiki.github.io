@@ -1,0 +1,30 @@
+body {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+h2 {
+	color: #ffffff;
+	background-color: #6ba13f;
+	text-align: center;
+}
+
+ul.a{
+	display: flex;
+	list-style-type: none;
+	mardin: 0 0 0 1em;
+	padding: 0;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+#lo {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: white;/*ボタン色*/
+  color: #6BA13F;
+  border-bottom: solid 4px #6BA13F;
+  border-radius: 3px;
+}

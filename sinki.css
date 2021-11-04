@@ -1,0 +1,40 @@
+body {
+	width: 380px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+h1{
+	text-align: center;
+	background-color: #6ba13f;
+	color: white;
+}
+
+.omochi{
+	text-align: center;
+	margin-top: 70px;
+}
+
+.soushin{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #6BA13F;/*ボタン色*/
+  color: #FFF;//文字色//
+  border-bottom: solid 4px #6BA13F;
+  border-radius: 3px;
+	margin-left: 315px;
+}
+
+.btn1 {
+  color: #FFF;
+  border: 2px solid #FFF;
+  border-radius: 0;
+  background: #6BA13F;
+}
+
+.btn1:hover {
+  color: #6BA13F;
+  background: #FFF;
+}

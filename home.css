@@ -1,0 +1,35 @@
+body {
+	width: 340px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+img {
+	margin-left: 340px;
+}
+h1 {
+	color: #6ba13f;
+}
+
+.sub {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #6BA13F;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #6BA13F;
+  border-radius: 3px;
+  margin-left: 315px;
+}
+
+
+#lo {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #6BA13F;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #6BA13F;
+  border-radius: 3px;
+  margin-left: 275px;
+}
