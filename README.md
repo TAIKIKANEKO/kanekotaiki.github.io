@@ -1,1 +1,0 @@
-# kanekotaiki.github.io
